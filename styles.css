@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: dieFrau;
+    src: url(/font/DieFrau-BvXn.ttf);
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* img and title  */
+
+.headerContainer {
+    position: relative;
+    text-align: center;
+    background-color: black;
+}
+
+.titleTxt {
+    font-family: dieFrau;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+
+/* end of img and title */
+
+
+/* NAVBAR */
+
+.navHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #231F20;
+}
+
+.listLink,
+.navlink {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.navLinks {
+    list-style: none;
+    justify-content: center;
+}
+
+.navLinks li {
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+.navLinks li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navLinks li a:hover {
+    color: #0088a9;
+}
+
+body#home #navHome {
+    color: green;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+/* bio css */
+
+.bioContainter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.ryanImgDiv {
+    max-width: 100%;
+    margin-right: 100px;
+}
+
+.bioPic {
+    border-radius: 10%;
+}
+
+.ryanBio {
+    font-family: 'Gloock', serif;
+    margin-left: 100px;
+    margin-right: 50px;
+    align-content: center;
+    text-align: left;
+    width: 30%;
+    padding-top: 25px;
+}
+
+
+/* social media icons */
+
+.socialMedia {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.socialMediaLinks {
+    list-style: none;
+}
+
+.socialMediaLinks li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.smIcons a {
+    color: black;
+    font-size: 25px;
+    padding-inline: 5px;
+}
+
+.creditDue {
+    text-align: center;
+    color: #231F20;
+}
