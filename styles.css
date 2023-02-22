@@ -75,7 +75,6 @@ body {
 }
 
 body#home #navHome {
-    color: green;
     text-decoration: underline;
     font-weight: bold;
 }
