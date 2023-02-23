@@ -282,6 +282,19 @@ p {
     }
 }
 
+
+/* 
+
+
+
+
+
+
+
+
+
+*/
+
 @media only screen and (min-width: 1200px) {
     @import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
     * {
@@ -317,9 +330,9 @@ p {
     }
     .listLink,
     .navlink {
-        font-family: "Montserrat", sans-serif;
+        font-family: dieFrau;
         font-weight: 500;
-        font-size: 16px;
+        font-size: 24px;
         color: white;
         text-decoration: none;
     }
@@ -366,23 +379,26 @@ p {
         padding-left: 75px;
     }
     .ryanImgDiv {
-        max-width: 100%;
+        /* max-width: 100%; */
         margin-right: 50px;
         margin-left: 0px;
         padding-left: 5%;
-        width: 100%;
     }
     .bioPic {
         border-radius: 10%;
         box-shadow: 10px 10px lightgray;
+        width: 85%;
+    }
+    .ryanBio h3 {
+        font-size: 42px;
     }
     .ryanBio {
         font-family: 'arial';
         font-size: 20px;
-        margin-left: 100px;
+        /* margin-left: 100px; */
         align-content: center;
         text-align: left;
-        width: 100%;
+        width: 40%;
         padding-top: 25px;
     }
     /* social media icons */
