@@ -15,32 +15,35 @@ body {
 }
 
 
-/* img and title  */
+/* HEADER IMG & TXT */
 
 .headerContainer {
     position: relative;
     text-align: center;
     background-color: black;
+    width: 100%;
+}
+
+.topImg {
+    display: none;
 }
 
 .titleTxt {
+    color: #FDCA7F;
     font-family: dieFrau;
-    font-size: 50px;
+    font-size: 45px;
     text-align: center;
-    color: white;
 }
 
 
-/* end of img and title */
-
-
-/* NAVBAR */
+/* NAV BAR */
 
 .navHeader {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #231F20;
+    background-color: #231f20;
 }
 
 .listLink,
@@ -53,6 +56,10 @@ body {
 }
 
 .logo {
+    display: none;
+}
+
+.logoPhone {
     cursor: pointer;
 }
 
@@ -63,16 +70,18 @@ body {
 
 .navLinks li {
     display: inline-block;
-    padding: 0px 30px;
 }
 
-.navLinks li a {
-    transition: all 0.3s ease 0s;
+#contact {
+    padding-left: 25px;
 }
 
-.navLinks li a:hover {
-    color: #0088a9;
+.guitarSymbol {
+    display: none;
 }
+
+
+/* ACTIVE NAV */
 
 body#home #navHome {
     text-decoration: underline;
@@ -80,37 +89,46 @@ body#home #navHome {
 }
 
 
-/* bio css */
+/* BIO CSS */
 
 .bioContainter {
-    display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column-reverse;
 }
 
-.ryanImgDiv {
-    max-width: 100%;
-    margin-right: 100px;
+.ryanBio h3,
+p {
+    width: 90%;
+}
+
+.ryanBio h3 {
+    font-family: dieFrau;
+    font-size: 24px;
+    line-height: 44px;
+    margin-left: 10px;
 }
 
 .bioPic {
-    border-radius: 10%;
+    border-radius: 100%;
+    width: 65%;
     box-shadow: 10px 10px lightgray;
 }
 
-.ryanBio {
-    font-family: 'Gloock', serif;
-    margin-left: 100px;
-    margin-right: 50px;
-    align-content: center;
-    text-align: left;
-    width: 30%;
-    padding-top: 25px;
+.ryanImgDiv {
+    margin-left: 25%;
+}
+
+.ryanBio p {
+    font-family: 'arial';
+    margin: 0 0 0 5%;
+    line-height: 24px;
 }
 
 
-/* social media icons */
+/* Social Media */
 
 .socialMedia {
     color: black;
@@ -139,4 +157,5 @@ body#home #navHome {
     text-align: center;
     color: #231F20;
     padding-bottom: 50px;
+    width: 100%;
 }
