@@ -159,3 +159,256 @@ p {
     padding-bottom: 50px;
     width: 100%;
 }
+
+
+/* 
+    TABLET CSS
+
+*/
+
+@media only screen and (min-width: 768px) {
+    .headerContainer {
+        position: relative;
+        justify-content: center;
+        background-color: black;
+        align-items: center;
+    }
+    .topImg {
+        display: inline;
+        /* width: 90%; */
+    }
+    .titleTxt {
+        color: #FDCA7F;
+        font-family: dieFrau;
+        font-size: 45px;
+        text-align: center;
+    }
+    /* NAV BAR */
+    .navHeader {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #231f20;
+    }
+    .listLink,
+    .navlink {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: white;
+        text-decoration: none;
+    }
+    .logo {
+        display: none;
+    }
+    .logoPhone {
+        cursor: pointer;
+    }
+    .navLinks {
+        list-style: none;
+        justify-content: center;
+    }
+    .navLinks li {
+        display: inline-block;
+    }
+    #contact {
+        padding-left: 25px;
+    }
+    .guitarSymbol {
+        display: none;
+    }
+    /* ACTIVE NAV */
+    body#home #navHome {
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    /* BIO CSS */
+    .bioContainter {
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .ryanBio h3,
+    p {
+        width: 90%;
+    }
+    .ryanBio h3 {
+        font-family: dieFrau;
+        font-size: 24px;
+        line-height: 44px;
+        margin-left: 45px;
+    }
+    .bioPic {
+        border-radius: 100%;
+        width: 65%;
+        box-shadow: 10px 10px lightgray;
+    }
+    .ryanImgDiv {
+        margin-left: 25%;
+    }
+    .ryanBio p {
+        font-family: 'arial';
+        margin: 0 0 0 5%;
+        line-height: 24px;
+    }
+    /* Social Media */
+    .socialMedia {
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 100px;
+    }
+    .socialMediaLinks {
+        list-style: none;
+    }
+    .socialMediaLinks li {
+        display: inline-block;
+        padding: 0px 10px;
+    }
+    .smIcons a {
+        color: black;
+        font-size: 25px;
+        padding-inline: 5px;
+    }
+    .creditDue {
+        text-align: center;
+        color: #231F20;
+        padding-bottom: 50px;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    @import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    @font-face {
+        font-family: dieFrau;
+        src: url(font/DieFrau-BvXn.ttf);
+    }
+    body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    /* img and title  */
+    .headerContainer {
+        position: relative;
+        text-align: center;
+        background-color: black;
+    }
+    .titleTxt {
+        font-family: dieFrau;
+        font-size: 50px;
+        text-align: center;
+    }
+    /* end of img and title */
+    /* NAVBAR */
+    .navHeader {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #231F20;
+    }
+    .listLink,
+    .navlink {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: white;
+        text-decoration: none;
+    }
+    .logo {
+        display: block;
+        cursor: pointer;
+        padding-left: 25px;
+    }
+    .logoPhone {
+        display: none;
+    }
+    .navLinks {
+        list-style: none;
+        justify-content: center;
+    }
+    .navLinks li {
+        display: inline-block;
+        padding: 0px 30px;
+    }
+    .navLinks li a {
+        transition: all 0.3s ease 0s;
+    }
+    .navLinks li a:hover {
+        color: #0088a9;
+    }
+    .guitarPhoneSym {
+        display: none;
+    }
+    .guitarSymbol {
+        display: block;
+        padding-right: 25px;
+    }
+    body#home #navHome {
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    /* bio css */
+    .bioContainter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 50px;
+        flex-direction: row;
+        padding-left: 75px;
+    }
+    .ryanImgDiv {
+        max-width: 100%;
+        margin-right: 50px;
+        margin-left: 0px;
+        padding-left: 5%;
+        width: 100%;
+    }
+    .bioPic {
+        border-radius: 10%;
+        box-shadow: 10px 10px lightgray;
+    }
+    .ryanBio {
+        font-family: 'arial';
+        font-size: 20px;
+        margin-left: 100px;
+        align-content: center;
+        text-align: left;
+        width: 100%;
+        padding-top: 25px;
+    }
+    /* social media icons */
+    .socialMedia {
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 100px;
+    }
+    .socialMediaLinks {
+        list-style: none;
+    }
+    .socialMediaLinks li {
+        display: inline-block;
+        padding: 0px 10px;
+    }
+    .smIcons a {
+        color: black;
+        font-size: 50px;
+        padding-inline: 5px;
+    }
+    .creditDue {
+        text-align: center;
+        color: #231F20;
+        padding-bottom: 50px;
+        font-size: 14px;
+    }
+}
