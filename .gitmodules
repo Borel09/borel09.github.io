@@ -1,0 +1,3 @@
+[submodule "codingPortfolio"]
+	path = codingPortfolio
+	url = https://github.com/Borel09/codingPortfolio.git
